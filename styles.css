@@ -5,6 +5,7 @@
 
 .header li {
   display: inline;
+  margin: 0px 10px;
 }
 
 .header > * {
@@ -37,12 +38,17 @@
   font-weight: 600;
 }
 
+.actions >*{
+  margin: 0px 10px;
+}
+
 body {
   background-color: #fffbf7;
 }
 
 main{
   margin: 10% 0 0 0;
+  text-align: center;
 }
 
 button {
@@ -51,12 +57,10 @@ button {
 }
 #debajo-titulo {
   color: #46484c;
-  text-align: center;
 }
 #promocional {
   color: #8b8b8bcc;
 }
 h1 {
   color: #025157;
-  text-align: center;
 }
