@@ -70,6 +70,9 @@ body {
 
 main{
   margin: 10% 0 0 0;
+}
+
+#titulo{
   text-align: center;
 }
 
@@ -80,9 +83,17 @@ button {
 #debajo-titulo {
   color: #46484c;
 }
-#promocional {
+.promocional {
   color: #8b8b8bcc;
 }
 h1 {
+  color: #025157;
+}
+
+#prom-p{
+  color: #343434;
+}
+
+#video-prom>article>h2{
   color: #025157;
 }
