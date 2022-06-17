@@ -105,6 +105,15 @@ h1 {
   align-items: center;
 }
 
-#video-prom>article{
+#prom{
   margin-left: 3%;
+}
+
+#videos-flex{
+  flex-direction: column;
+}
+
+#videos-flex>img{
+  width: 15%;
+
 }
