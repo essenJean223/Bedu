@@ -97,3 +97,14 @@ h1 {
 #video-prom>article>h2{
   color: #025157;
 }
+
+#video-prom{
+  display: flex;
+  margin: 100px auto;
+  width: 70%;
+  align-items: center;
+}
+
+#video-prom>article{
+  margin-left: 3%;
+}
