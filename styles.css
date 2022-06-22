@@ -1,15 +1,21 @@
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+
 #flex-header{
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
+  right: 0;;
   background-color: #fffbf7;
 }
 
 .header {
-  margin: 40px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
   font-size: 0;
   font-family: sans-serif;
+  background-color: white;
 }
 
 .header li {
@@ -74,6 +80,8 @@
 
 body {
   background-color: #fffbf7;
+  padding: 0%;
+  margin: 0%;
 }
 
 main{
@@ -82,6 +90,9 @@ main{
 
 #titulo{
   text-align: center;
+}
+#titulo>h1{
+  font-size: xx-large;
 }
 
 button {
@@ -126,3 +137,64 @@ h1 {
 #videos-flex>img{
   width: 15%;
 }
+
+#grow-ecommerce{
+  display: flex;
+  background-color: #a1d683;
+  padding: 5% 15%;
+  height: 75vh;
+}
+
+#cont-ecommerce{
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+#grow-titulo{
+  color: #025157;
+  font-size: xx-large;
+}
+
+#grow-boton{
+  border: none;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+#grow-marcas{
+  margin: 10% 0%;
+  display: flex;
+}
+
+#barra-lateral{
+  background-color: white;
+  border-radius: 10px;
+}
+
+#barra-img-contenedor{
+  height: 35%;
+  background-color: #343434;
+}
+
+#barra-contenido{
+  padding: 1% 3%;
+}
+
+#barra-marca{
+  color: #025157;
+  margin-top: 5%;
+}
+
+#barra-carrito>*{
+  display: inline;
+}
+
+#barra-boton{
+  border: none;
+  padding: 2%;
+  border-radius: 5px;
+  margin: 10% 15%;
+  width: 70%;
+  padding: 5% 10%;
+}
+
