@@ -138,6 +138,19 @@ h1 {
   width: 15%;
 }
 
+.features{
+  display: grid;
+  grid-template: repeat(2,1fr)/repeat(2,1fr);
+  height: 660px;
+  background-color: #025157;
+}
+
+.features>*{
+  background-color: white;
+}
+
+
+
 #grow-ecommerce{
   display: flex;
   background-color: #a1d683;
