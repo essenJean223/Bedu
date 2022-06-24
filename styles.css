@@ -94,6 +94,9 @@ main{
 #titulo>h1{
   font-size: xx-large;
 }
+#titulo-figure>img{
+  width: 80%;
+}
 
 button {
   background-color: #025157;
@@ -141,17 +144,40 @@ h1 {
 .features{
   display: grid;
   grid-template: repeat(2,1fr)/repeat(2,1fr);
-  height: 660px;
+  height: 80%;
   background-color: #025157;
-  padding: 4% 7%;
+  padding: 4% 9%;
 }
 
-.features>*{
+.features>article{
   background-color: white;
   margin: 2%;
-  border-radius: 5px;
+  border-radius: 10px;
+  display: flex;
 }
 
+.feature-contenido{
+  margin: 8% 0% 3% 8%;
+}
+
+.feature-title{
+  font-weight: 400;
+}
+
+.feature-p{
+  font-weight: 300;
+}
+
+.feature-link>a{
+  text-decoration: none;
+  color: #67b54b;
+  font-weight: 400;
+}
+
+.feature-imagen{
+  margin-left: 10%;
+  
+}
 
 
 #grow-ecommerce{
