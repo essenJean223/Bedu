@@ -168,7 +168,7 @@ h1 {
   font-weight: 300;
 }
 
-.feature-link>a{
+.feature-link{
   text-decoration: none;
   color: #67b54b;
   font-weight: 400;
@@ -240,3 +240,17 @@ h1 {
   padding: 5% 10%;
 }
 
+
+#hwork-head{
+  text-align: center;
+}
+
+#hwork-head>#grow-boton{
+  padding: 1%;
+  font-size: small;
+}
+
+#hwork-cards{
+  display: flex;
+  padding: 0% 10%;
+}
