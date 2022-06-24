@@ -243,14 +243,57 @@ h1 {
 
 #hwork-head{
   text-align: center;
+  margin: 0% 25%;
+}
+
+#hwork-head>h2{
+  color: #025157;
+  margin-top: 10%;
+  font-size: xx-large;
+}
+
+#hwork-head>p{
+  margin-bottom: 5%;
 }
 
 #hwork-head>#grow-boton{
   padding: 1%;
   font-size: small;
+  margin-bottom: 10%;
 }
 
 #hwork-cards{
   display: flex;
-  padding: 0% 10%;
+  padding: 5% 10%;
+  height: 80vh;
 }
+
+#hwork-cards>.card{
+  border: 1px rgb(189, 186, 186) solid;
+  border-radius: 5px;
+  margin: 0% 1%;
+  width: 25%;
+}
+
+.hwork-card-img{
+  height: 60%;
+}
+
+.card>h3{
+  text-align: center;
+  color: #025157;
+}
+
+.card>p{
+  margin: 0% 10%;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #46484c;
+  font-weight: 400;
+}
+
+.card>a{
+  display: block;
+  margin: 10% 10%;
+}
+
