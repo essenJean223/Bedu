@@ -1,0 +1,56 @@
+@media (max-width: 575px){
+    .navbar, .actions{
+        display: none;
+    }
+    .logo{
+        width: 50%;
+        margin: 2%;
+    }
+    #titulo>h1{
+        font-size: large;
+    }
+    main{
+        margin-top: 15%;
+    }
+    #titulo-figure>img{
+        width: 100%;
+    }
+
+    #video-prom{
+        flex-direction: column;
+    }
+    form>input{
+        width: 40%;
+    }
+    
+    form>button{
+        width: 30%;
+    }
+    
+    #prom>form{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #prom>form>input{
+        width: 60%;
+    }
+    
+    #prom>form>button{
+        width: 40%;
+    }
+
+    .features{
+        flex-direction: column;
+    }
+
+    .features>article{
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .feature-imagen{
+        display: none;
+    }
+    
+}
