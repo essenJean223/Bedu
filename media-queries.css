@@ -1,6 +1,6 @@
 @media (max-width: 575px){
     .navbar, .actions{
-        display: none;
+        text-align: center;
     }
     .logo{
         width: 50%;
@@ -52,5 +52,14 @@
     .feature-imagen{
         display: none;
     }
+
     
+    
+}
+
+@media (max-width: 991px) {
+    .actions,
+    .navbar {
+        text-align: center;
+    }
 }
