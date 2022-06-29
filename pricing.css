@@ -1,0 +1,77 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+#flex-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
+
+.header {
+  margin: 0px 20px;
+  font-size: 0;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.header li {
+  display: inline;
+  margin: 0px 15px;
+  color: #025157;
+}
+
+.nav-item {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 45px;
+  height: 100%;
+}
+
+#logo-matcha {
+  width: 15%;
+}
+
+#logo-marcha > img {
+  width: 15%;
+}
+
+.navbar {
+  width: 100%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.actions {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#logo-matcha {
+  width: 4%;
+  /*
+    margin:0% 1%;
+    */
+}
+
+.actions > a {
+  color: #67b54b;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.actions > button {
+  background-color: #67b54b;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: white;
+}
