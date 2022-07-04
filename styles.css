@@ -116,6 +116,10 @@ form > button {
   border-radius: 0% 5px 5px 0px;
 }
 
+.texto-boton:hover{
+  background-color: #67b5b4;
+}
+
 button {
   background-color: #025157;
   color: #fff;
