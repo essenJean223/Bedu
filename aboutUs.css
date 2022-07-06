@@ -12,9 +12,14 @@ main .cards {
     main .cards .card img {
       max-width: 100%;
       border-radius: 10px; }
+    main .cards .card a {
+      text-decoration: none; }
     main .cards .card .card-title {
       margin: 4% auto;
-      color: #025157; }
+      color: #025157;
+      transition: color .3s ease-in-out; }
+    main .cards .card .card-title:hover {
+      color: #67b54b; }
     main .cards .card .card-content {
       font-size: 90%; }
 

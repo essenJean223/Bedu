@@ -17,10 +17,21 @@ main{
                 max-width: 100%;
                 border-radius: 10px;
             }
+            
+            a{
+                text-decoration: none;
+            }
 
             .card-title{
                 margin: 4% auto;
                 color: #025157;
+                transition: color .3s ease-in-out;
+            }
+
+            .card-title:hover{
+                color: #67b54b;
+
+                
             }
             .card-content{
                 font-size: 90%;
