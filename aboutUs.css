@@ -1,0 +1,21 @@
+main .encabezado {
+  text-align: center; }
+main .cards {
+  display: flex;
+  margin: 5% 3%; }
+  main .cards .card {
+    width: 35%;
+    text-align: center;
+    padding-bottom: 2%;
+    margin: 0% 1%;
+    border: none; }
+    main .cards .card img {
+      max-width: 100%;
+      border-radius: 10px; }
+    main .cards .card .card-title {
+      margin: 4% auto;
+      color: #025157; }
+    main .cards .card .card-content {
+      font-size: 90%; }
+
+/*# sourceMappingURL=aboutUs.css.map */
